@@ -16,4 +16,24 @@ The correct steps using pipenv:
 
 Note: Pipenv will use the correct python version and pip within the virtual environment.
 
+Problem when upgrading to python 3.9 from python 2.7.16 Just install the new python version using brew install python or download and install for your OS then
+
+    sudo rm -rf /Library/Frameworks/Python.framework/Versions/2.7
+
+    sudo rm -rf "/Applications/Python 2.7"
+
+    ls -l /usr/local/bin | grep '../Library/Frameworks/Python.framework/Versions/2.7'
+
+    then check -> python --version
+
+    in your .bash_profile create an alias pointing to the new python version; like this:
+
+    alias python="/usr/local/bin/python3"
+
+    then save and run source ~/.bash_profile.
+
+    check -> python --version
+
+all set now
+
 #2
