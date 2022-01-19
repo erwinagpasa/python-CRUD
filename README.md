@@ -4,15 +4,15 @@ If you encountered error when using pipenv. The issue was caused by not accessin
 
 The correct steps using pipenv:
 
-    Activate virtual environment: **pipenv shell**
+    Activate virtual environment: pipenv shell
 
-    Install Django: **pipenv install django**
+    Install Django: pipenv install django
 
-    Create a project: **django-admin startproject myproject**
+    Create a project: django-admin startproject myproject
 
-    Navigate into project folder: **cd myproject**
+    Navigate into project folder: cd myproject
 
-    Start Django with pipenv: pipenv run **python manage.py runserver**
+    Start Django with pipenv: pipenv run python manage.py runserver
 
 Note: Pipenv will use the correct python version and pip within the virtual environment.
 
@@ -36,4 +36,4 @@ Problem when upgrading to python 3.9 from python 2.7.16 Just install the new pyt
 
 all set now
 
-#2
+#3
